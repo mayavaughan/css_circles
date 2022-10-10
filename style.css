@@ -1,0 +1,100 @@
+body {
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: purple;
+}
+
+#text, #shape {
+    width: 300px;
+    padding: 50px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+p {
+    font-size: 20px;
+}
+p:hover {
+    font-size: 30px;
+    background: pink;
+    transition-duration: 1s;
+    transition-timing-function:ease;
+    transition-delay: 1s;
+}
+.circle1 {
+        width: 300px;
+        height: 300px;
+        background: black;
+        border-radius: 50%;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+      }
+.circle1:hover{
+    background-color: blueviolet;
+    border-radius: 100px;
+    
+}
+
+.circle2 {
+    width: 300px;
+    height: 200px;
+    background: black;
+    border-radius: 150px;  
+    
+    transition-property: height;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+    
+}
+.circle2:hover {
+    height: 100px;
+    background-color: yellowgreen;
+    border-radius: 150px;
+    transform: rotate(120deg);
+}
+
+.circle3 {
+    width: 300px;
+    height: 75px;
+    background: black;
+    border-radius: 50%;
+    transition: all 800ms ease 0s;
+
+}
+.circle3:hover{
+    background-color: red;
+    transform: rotate(1500deg);
+    
+}
+.circle4 {
+    width: 300px;
+    height: 50px;
+    background: black;
+    border-radius: 50%;
+
+}
+.circle4:hover{
+    height:600px
+}
+.heart1 {
+    
+    width: 100px;
+    height: 90px;
+
+
+    left: 50px;
+    right:50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    transform: rotate(45deg);
+    transform-origin: 0 100%;
+
+  }
